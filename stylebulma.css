@@ -1,0 +1,8 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+.has-text-primary {
+  color: #d100c0 ;
+}
+.navbar{
+    --bulma-navbar-background-color: hsl(171.1deg 100% 40.98%);
+}
