@@ -1,8 +1,25 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+$blue: #fd0d49e1;
+$white: #ffffff;
 
-// Include any default variable overrides here (though functions won't be available)
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+// Override SCSS variables before importing Bootstrap
+$navbar-nav-link-padding-x: 4.5rem;
+$primary:       $blue;
+$light:        $white;
 
+
+
+// Import Bootstrap
 @import "../bootstrap-5.3.4-dist/scss/bootstrap";
 
-// Then add additional custom code here
+// Add additional custom code here
